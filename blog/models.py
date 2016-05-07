@@ -13,7 +13,7 @@ class Post(models.Model):
             blank=True, null=True)
 
     def yayinla(self):
-        self. yayinlama_tarihi = timezone.now()
+        self.yayinlama_tarihi = timezone.now()
         self.save()
 
     def __str__(self):
